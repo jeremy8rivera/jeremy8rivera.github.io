@@ -96,6 +96,10 @@
     line-height: 2em;
   }
 
+  #education ul {
+    padding-left: 0;
+  }
+
   #snapshotImage{
     display: none;
   }
