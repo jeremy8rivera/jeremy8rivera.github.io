@@ -18,7 +18,7 @@ export default [
 	"languages": "Flutter",
 	"link": [{
 		"type": "Video",
-		"endpoint": "zdg-site.firebaseapp.com"
+		"endpoint": "https://youtu.be/RekclPLARl0"
 	}]
 },
 {
