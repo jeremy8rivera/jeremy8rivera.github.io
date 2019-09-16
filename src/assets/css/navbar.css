@@ -1,0 +1,44 @@
+.navbar{
+	position: fixed;
+	right: 2%;
+	top: 50%;
+	font-size: 15px;
+
+}
+
+@media only screen and (max-width: 600px) {
+  .navbar {
+    display: none;
+  }
+}
+
+.navbar ul{
+	list-style-type: none;
+	border-right: 2px solid red;
+}
+
+.navbar ul li{
+	
+	padding-right: 15px;
+	margin: 10px 0 10px 0;
+}
+
+.focused{
+	border-right: 3px solid red;
+	font-weight: bold;
+	opacity: 1.0;
+}
+
+.unfocused{
+	opacity: 0.9;
+	border-right-width: 0px;
+}
+
+.unfocused:hover{
+	opacity: 1.0;
+}
+
+.navbar ul li a{
+	color: black;
+	text-decoration: none;
+}
