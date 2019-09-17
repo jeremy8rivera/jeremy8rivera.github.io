@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "19f819390aa39ae10354ac3933810f58",
+    "revision": "2c691807c1ef5c69ec7a4a49d74a30c9",
     "url": "/index.html"
   },
   {
-    "revision": "b49ef97add49b2d993c0",
+    "revision": "6a420f09614d849f2a43",
     "url": "/static/css/main.fc681e24.chunk.css"
   },
   {
@@ -12,16 +12,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.c49cda5f.chunk.js"
   },
   {
-    "revision": "b49ef97add49b2d993c0",
-    "url": "/static/js/main.735e611a.chunk.js"
+    "revision": "6a420f09614d849f2a43",
+    "url": "/static/js/main.6077baf3.chunk.js"
   },
   {
     "revision": "da7e19da5b2d0ab63102",
     "url": "/static/js/runtime~main.4fedb128.js"
   },
   {
-    "revision": "b2b9c6d43c52365cec9dc0d3327c3ec4",
-    "url": "/static/media/Jeremy_Rivera_Resume.b2b9c6d4.pdf"
+    "revision": "49c1b138f3cd0d5d1e08d5bcaf2c83e0",
+    "url": "/static/media/Jeremy_Rivera_Resume.49c1b138.pdf"
   },
   {
     "revision": "1118869ee65ca0a46846624fbeb2a9c1",
