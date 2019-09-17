@@ -32,12 +32,11 @@ function Homepage() {
     		<h2>About Me</h2>
     		<p>
              Born in 1997, I grew up in Greenwich, CT as the youngest of three
-    		 to my two parents. Attending the New York University Tandon School of
-    		 Engineering, I am majoring in Computer Science with a double minor in
-    		 Game Engineering and Integrated Digital Media. My focus of interest
-    		 in these areas revolves around Software, Game, and Front-End Web
-    		 Development. My passion for computer science first began in eighth
-    		 grade when I was introduced to HTML and CSS. Since then, I have
+    		 to my two parents. I attended the New York University Tandon School of
+    		 Engineering, where I majored in Computer Science with a minor in
+    		 Integrated Digital Media. My focus of interest in Computere Science revolves around
+             Front-End Web and Mobile Application Development. My passion for computer science 
+             first began in eighth grade when I was introduced to HTML and CSS. Since then, I have
     		 aimed to solidify and cultivate my interest and skill set by attending
     		 summer camps and high school courses revolving around web and game
     		 development. During my free time I enjoy dancing, playing video games
