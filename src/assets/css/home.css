@@ -96,10 +96,6 @@
     line-height: 2em;
   }
 
-  #education ul {
-    padding-left: 0;
-  }
-
   #snapshotImage{
     display: none;
   }
@@ -141,6 +137,7 @@
 
 #education ul{
 	list-style-type: none;
+  padding-left: 0;
 }
 
 #skills{
