@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/static/css/main.fc681e24.chunk.css",
-    "main.js": "/static/js/main.8c930922.chunk.js",
-    "main.js.map": "/static/js/main.8c930922.chunk.js.map",
+    "main.js": "/static/js/main.735e611a.chunk.js",
+    "main.js.map": "/static/js/main.735e611a.chunk.js.map",
     "runtime~main.js": "/static/js/runtime~main.4fedb128.js",
     "runtime~main.js.map": "/static/js/runtime~main.4fedb128.js.map",
     "static/js/2.c49cda5f.chunk.js": "/static/js/2.c49cda5f.chunk.js",
     "static/js/2.c49cda5f.chunk.js.map": "/static/js/2.c49cda5f.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.047d012b3e7bb95785f04daac9fc7751.js": "/precache-manifest.047d012b3e7bb95785f04daac9fc7751.js",
+    "precache-manifest.a516b026a0c5bf1bda5984915aff3d98.js": "/precache-manifest.a516b026a0c5bf1bda5984915aff3d98.js",
     "service-worker.js": "/service-worker.js",
     "static/css/main.fc681e24.chunk.css.map": "/static/css/main.fc681e24.chunk.css.map",
-    "static/media/Jeremy_Rivera_Resume.pdf": "/static/media/Jeremy_Rivera_Resume.7949b80b.pdf",
+    "static/media/Jeremy_Rivera_Resume.pdf": "/static/media/Jeremy_Rivera_Resume.b2b9c6d4.pdf",
     "static/media/VFSPortfolio.pdf": "/static/media/VFSPortfolio.1118869e.pdf",
     "static/media/headshot.jpg": "/static/media/headshot.8601f3be.jpg"
   }
