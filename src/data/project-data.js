@@ -2,16 +2,6 @@ import VFS from './../assets/external/VFSPortfolio.pdf'
 
 export default [
 {
-	"key": "zdg",
-	"name": "Zena Digital Group Website",
-	"description": "Using the designs provided by Zena Digital Group, a digital marketing consultant company, I created a site they needed using React.JS for the front-end and Firebase as a backend. The purpose of using Firebase was for them to easily update and change their 'client list' without the need of a developer.",
-	"languages": "CSS, React.JS",
-	"link": [{
-		"type": "Website",
-		"endpoint": "zdg-site.firebaseapp.com"
-	}]
-},
-{
 	"key": "emgroupticketing",
 	"name": "E/M Group Mobile Ticketing",
 	"description": "A working mobile application for employees to use to verify and validate tickets within seconds. Built the application from the ground up communicating and discussing designs & features with a designer and back-end engineer. This application improved turnaround time by 70%.",
@@ -22,9 +12,29 @@ export default [
 	}]
 },
 {
+	"key": "zdg",
+	"name": "Zena Digital Group Website",
+	"description": "Using the designs provided by Zena Digital Group, a digital marketing consultant company, I created a site they needed using React.JS for the front-end and Firebase as a backend. The purpose of using Firebase was for them to easily update and change their 'client list' without the need of a developer.",
+	"languages": "CSS, React.JS",
+	"link": [{
+		"type": "Website",
+		"endpoint": "https://zdg-site.firebaseapp.com"
+	}]
+},
+{
+	"key": "emgroupexhibitorsite",
+	"name": "E/M Group Exhibitor Site",
+	"description": "Using a prexisting site, E/M Group needed changes to better reflect their marketing asepct and have browser display bugs fixed. The exhibitor site is to show off current exhibitions and convince exhibitors to hire E/M Group to handle properly setting up the exhibit. Worked with the original designer to obtain the assets necessary.",
+	"languages": "Rebass, React.JS",
+	"link": [{
+		"type": "Website",
+		"endpoint": "https://exhibitors.emgroup.com/"
+	}]
+},
+{
 	"key": "socialcalendar",
 	"name": "Social Calendar",
-	"description": "As a team of 4, this site was created to help create events. The goal was to streamline event making through limited choices by allowing users of the site to invite the other members of the event, get a good idea of when everyone is available, and decide on a time based on the options given.",
+	"description": "As a team of 4, this site was created to help create events. The goal was to streamline event making through limited choices by allowing users of the site to invite the other members of the event, see when everyone is available, and decide on a time based on the options given.",
 	"languages": "CSS, Vue.JS",
 	"link": [{
 		"type": "Repo",
@@ -64,7 +74,7 @@ export default [
 {
 	"key": "thinice",
 	"name": "Thin Ice Game",
-	"description": "Our team, consisting of 4 people, created a puzzle game in which you, the player, must escape while breaking all the ice on the level to prevent the enemy from persuing you.",
+	"description": "Our team, consisting of 4 people, created a puzzle game in which you, the player, must escape while breaking all the ice on the level to prevent the enemy from persuing you. Personally responsible for sound design and level difficulty that exponentionally increased at a fair rate.",
 	"languages": "GameMaker Studio 2",
 	"link": [{
 		"type": "Repo",
