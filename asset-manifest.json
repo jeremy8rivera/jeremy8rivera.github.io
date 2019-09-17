@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.596d6ef5.chunk.css",
-    "main.js": "/static/js/main.bcdf4db1.chunk.js",
-    "main.js.map": "/static/js/main.bcdf4db1.chunk.js.map",
+    "main.css": "/static/css/main.9a246582.chunk.css",
+    "main.js": "/static/js/main.c7896995.chunk.js",
+    "main.js.map": "/static/js/main.c7896995.chunk.js.map",
     "runtime~main.js": "/static/js/runtime~main.4fedb128.js",
     "runtime~main.js.map": "/static/js/runtime~main.4fedb128.js.map",
     "static/js/2.c49cda5f.chunk.js": "/static/js/2.c49cda5f.chunk.js",
     "static/js/2.c49cda5f.chunk.js.map": "/static/js/2.c49cda5f.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.b20f5a8bd5461416e55548380739c92e.js": "/precache-manifest.b20f5a8bd5461416e55548380739c92e.js",
+    "precache-manifest.60a5a2bc126398e73653f72bdca80d16.js": "/precache-manifest.60a5a2bc126398e73653f72bdca80d16.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.596d6ef5.chunk.css.map": "/static/css/main.596d6ef5.chunk.css.map",
-    "static/media/Jeremy_Rivera_Resume.pdf": "/static/media/Jeremy_Rivera_Resume.fb731e35.pdf",
+    "static/css/main.9a246582.chunk.css.map": "/static/css/main.9a246582.chunk.css.map",
+    "static/media/Jeremy_Rivera_Resume.pdf": "/static/media/Jeremy_Rivera_Resume.7949b80b.pdf",
     "static/media/VFSPortfolio.pdf": "/static/media/VFSPortfolio.1118869e.pdf",
     "static/media/headshot.jpg": "/static/media/headshot.8601f3be.jpg"
   }
