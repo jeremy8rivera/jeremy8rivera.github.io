@@ -5,7 +5,7 @@ import Projects from './../pages/projects.js'
 import Headshot from './../../assets/img/headshot.jpg'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faLinkedin, faGithub, faFacebook, faInstagram } from '@fortawesome/free-brands-svg-icons'
-import Resume from './../../assets/external/Resume.pdf'
+import Resume from './../../assets/external/Jeremy_Rivera_Resume.pdf'
 import commonData from './../../data/links.json'
 
 
