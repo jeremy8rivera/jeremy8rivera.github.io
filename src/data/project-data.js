@@ -18,7 +18,7 @@ export default [
 	"languages": "CSS, React.JS",
 	"link": [{
 		"type": "Website",
-		"endpoint": "https://zdg-site.firebaseapp.com"
+		"endpoint": "https://www.zenadigitalgroup.com"
 	}]
 },
 {
