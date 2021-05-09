@@ -1,0 +1,5 @@
+traillingComma: 'none'
+tabWidth: 2
+semi: false
+singleQoute: true
+arrow Parens: 'avoid'

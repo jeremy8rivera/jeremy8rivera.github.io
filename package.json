@@ -10,7 +10,9 @@
     "@fortawesome/react-fontawesome": "^0.1.4",
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
-    "react-scripts": "3.1.1"
+    "react-scripts": "3.4.1",
+    "styled-components": "^5.3.0",
+    "typescript": "^4.2.4"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -18,11 +20,24 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -b master -d build"
+    "deploy": "gh-pages -b master -d build",
+    "lint": "eslint src/ --ext .ts,.tsx --fix && tsc --noEmit"
   },
   "eslintConfig": {
     "extends": "react-app"
   },
+  "jest": {
+    "snapshotSerializers": [
+      "<rootDir>/node_modules/enzyme-to-json/serializer"
+    ]
+  },
+  "parser": "@typescript-eslint/parser",
+  "presets": [
+    "@babel/preset-env",
+    {
+      "useBuiltIns": "entry"
+    }
+  ],
   "browserslist": {
     "production": [
       ">0.2%",
@@ -36,6 +51,50 @@
     ]
   },
   "devDependencies": {
-    "gh-pages": "^2.1.1"
+    "@babel/preset-env": "^7.14.1",
+    "@types/enzyme": "^3.10.8",
+    "@types/jest": "^26.0.23",
+    "@types/react": "^17.0.5",
+    "@types/react-dom": "^17.0.3",
+    "@typescript-eslint/eslint-plugin": "^3.10.1",
+    "@typescript-eslint/parser": "^3.10.1",
+    "babel-plugin-styled-components": "^1.12.0",
+    "cross-env": "^7.0.3",
+    "eslint-config-airbnb": "^18.2.1",
+    "eslint-config-airbnb-typescript": "^12.3.1",
+    "eslint-config-airbnb-typescript-prettier": "^4.2.0",
+    "eslint-config-prettier": "^6.10.0",
+    "eslint-plugin-import": "^2.20.2",
+    "eslint-plugin-jest": "^24.3.6",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-prettier": "^3.4.0",
+    "eslint-plugin-react": "^7.23.2",
+    "eslint-plugin-react-hooks": "^3.0.0",
+    "gh-pages": "^2.1.1",
+    "husky": "^6.0.0",
+    "install": "^0.13.0",
+    "lint-staged": "^11.0.0",
+    "npm": "^7.12.0",
+    "prettier": "^2.2.1",
+    "prettier-eslint": "^12.0.0",
+    "pretty-quick": "^3.1.0",
+    "ts-jest": "^26.5.6"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "cross-env NODE_ENV=production lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.{ts, tsx}": [
+      "pretty-quick --staged",
+      "eslint --fix src/**/*.{ts, tsx}"
+    ]
+  },
+  "plugins": [
+    "prettier"
+  ],
+  "rules": {
+    "prettier/prettier": "error"
   }
 }
